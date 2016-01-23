@@ -1,0 +1,29 @@
+{
+  "name": "jvelo/datoum",
+  "description": "Datalove with Eloquent and Postgres jsonb",
+  "license": "MPL 2.0",
+  "authors": [
+    {
+      "name": "Jérôme Velociter",
+      "email": "jerome@velociter.fr"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "darrylkuhn/dialect": "1.0.*",
+    "illuminate/database": "5.2.*",
+    "illuminate/events": "5.2.*",
+    "monolog/monolog": "1.17.*",
+    "psr/log": "1.0.0",
+    "ramsey/uuid": "3.1.*"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jvelo\\Datoum\\": "src/"
+    }
+  }
+}
